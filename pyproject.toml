@@ -1,0 +1,15 @@
+﻿[tool.poetry]
+name = "ml-webapp-streamlit"
+version = "0.1.0"
+description = "Aplicación ML con Streamlit"
+authors = ["TuNombre <tu@email.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+streamlit = "^1.28.0"
+pandas = "^2.0.0"
+numpy = "^1.24.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
